@@ -1,0 +1,47 @@
+# IDE files (PhpStorm, VSCode, etc.)
+.idea/
+.vscode/
+*.iml
+
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Dependency directories
+/vendor/
+/node_modules/
+
+# Build artifacts / Compressed files
+*.zip
+*.tar.gz
+*.rar
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local configuration files (e.g., wp-config.php if developing outside standard WP structure)
+# wp-config.php (Uncomment if needed, but usually not in a plugin)
+# .env
+
+# WordPress specific (Good practice, though less likely needed directly in plugin repo)
+/wp-admin/
+/wp-includes/
+/wp-content/uploads/
+/wp-content/themes/
+/wp-content/plugins/ !(wp-armo-makeup)/ # Ignore other plugins if testing within a full WP install
+
+# Backup files
+*~
+*.bak
+*.swp
+*.swo
+
+# Sass cache
+.sass-cache/
+
+# PHPUnit cache
+.phpunit.result.cache
